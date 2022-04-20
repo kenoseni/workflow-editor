@@ -27,4 +27,11 @@ export const GlobalStyle = createGlobalStyle`
     padding-bottom: 0;
     background-color: #f6f9fc;
   }
+
+  .back-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 5rem;
+  }
 `;

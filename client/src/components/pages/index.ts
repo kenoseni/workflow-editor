@@ -1,3 +1,3 @@
 export * from "./LandingPage";
-export * from "./Workflows";
-export * from "./Workflow";
+export * from "./WorkFlows";
+export * from "./WorkFlow";

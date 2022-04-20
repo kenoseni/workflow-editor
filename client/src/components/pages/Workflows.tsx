@@ -1,5 +1,5 @@
 import React from "react";
 
-export const Workflows = () => {
-  return <div>Workflows</div>;
+export const WorkFlows = () => {
+  return <div>WorkFlows</div>;
 };

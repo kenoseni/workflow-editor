@@ -1,11 +1,13 @@
 import React from "react";
-import { FaPlus } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import { WorkFlowsWrapper } from "../../styles/WorkFlows.style";
 
 export const WorkFlows = () => {
   return (
     <WorkFlowsWrapper>
-      <FaPlus className="circular-button" />
+      <Link to={"/editor"}>
+        <div className="button">Goto Workflow Editor</div>
+      </Link>
     </WorkFlowsWrapper>
   );
 };
